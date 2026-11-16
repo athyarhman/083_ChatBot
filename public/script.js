@@ -85,7 +85,7 @@ chatForm.addEventListener("submit", async (event) => {
             },
 
             body: JSON.stringify({
-                messages: messages
+                message: messages
             })
 
         });
