@@ -167,7 +167,7 @@ chatForm.addEventListener("submit", async (event) => {
 
 
                     // Tambahkan token
-                    botResponse += token;
+                    botResponse += token.content;
 
 
                     // Update tampilan

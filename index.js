@@ -33,7 +33,7 @@ app.post("/api/chat", async (req, res) => {
                     "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
                 },
                 body: JSON.stringify({
-                    model: "inclusionai/ling-3.2-flash:free",
+                    model: "recursive/flint-v1.0:free",
                     messages: message,
                     temperature: 0.7,
                     max_tokens: 1000,
